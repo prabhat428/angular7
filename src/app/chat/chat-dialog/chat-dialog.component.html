@@ -1,0 +1,12 @@
+<h1>Angular Bot</h1>
+<!-- 
+<div class="message">{{ message}}</div>
+<label for="nameField">Your Message</label>
+<input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text"><br>
+<button (click)="sendMessage()">Send</button> -->
+
+<input class="chatInput"
+	   [(ngModel)] = "firemsg"
+	   (keydown) = "handleSubmit($event)"
+	   />
+<button class="chatButton" (click)=send()>Send</button>
