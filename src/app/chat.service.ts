@@ -43,7 +43,7 @@ export class ChatService {
 
     let data = {
         message: 'testing new app',
-        userName: 'prabhat ',
+        userName: 'prabhat new one ',
         email: 'prabhatsingh337@gmail.com'
         }
 
